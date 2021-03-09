@@ -117,6 +117,9 @@ li{
 }
 
 /* section 3  */
+.section-3{
+    width:100%;
+}
 
 .section-3 .row .col-md-12{
     position: relative;
@@ -124,6 +127,7 @@ li{
 
 .section-3 .row .col-md-12 img{
     width:100rem;
+    height:auto;
     z-index:5;
 }
 
