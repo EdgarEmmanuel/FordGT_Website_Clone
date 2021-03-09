@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "FordaPP": {
@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "FordaPP"
+    }
+  },
+  "defaultProject": "FordaPP",
+  "cli": {
+    "analytics": "6bf15619-6db5-4433-be57-ca5059f60391"
+  }
 }
