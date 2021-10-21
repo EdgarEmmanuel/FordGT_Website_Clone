@@ -1,0 +1,175 @@
+
+/* section-9 */
+
+.section-9{
+  margin-top: 30px;
+  padding: 20px 20px;
+}
+
+.section-9 .row .col-md-12{
+  width:100%;
+}
+
+.section-9 .row .col-md-12 img{
+  width:100rem;
+  position:relative;
+}
+
+.section-9 .row .col-md-12 .text{
+  position:absolute;
+  top:2rem;
+  bottom:auto;
+  color:white;
+  left:24rem;
+}
+
+.section-9 .row .col-md-12 .text h1{
+  text-align: center;
+  justify-content: center;
+}
+
+.section-9 .row .col-md-12 .text p{
+  margin:12px 0 0 0 ;
+}
+
+
+.section-9 .row .col-md-12 .text button {
+  margin:45px 0 0 14rem;
+  font-weight: bold;
+}
+
+.section-9 .row .col-md-12 .text  button .arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.section-9 .row .col-md-12 .text button  .right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  color:white;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section-9 .row .col-md-12{
+    width:auto;
+    background: #000;
+  }
+  .section-9 .row .col-md-12 img{
+    width:200rem;
+    position:relative;
+  }
+  .section-9 .row .col-md-12 .text{
+    background: rgba(41,40,39,0.5);
+    width: auto;
+    position:absolute;
+    top:2rem;
+    bottom:auto;
+    color:white;
+    left:2rem;
+    font-size: 2vw;
+  }
+
+  .section-9 .row .col-md-12 .text h1{
+    text-align: center;
+    font-size: 3vw;
+    justify-content: center;
+  }
+
+  .section-9 .row .col-md-12 .text p{
+    margin:12px 0 0 0 ;
+  }
+
+
+  .section-9 .row .col-md-12 .text button {
+    margin:45px 0 0 1rem;
+    font-weight: bold;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-9 .row .col-md-12{
+    width:auto;
+    background: #000;
+  }
+  .section-9 .row .col-md-12 img{
+    width:200rem;
+    position:relative;
+  }
+  .section-9 .row .col-md-12 .text{
+    background: rgba(41,40,39,0.5);
+    width: auto;
+    position:absolute;
+    top:3rem;
+    bottom:auto;
+    color:white;
+    left:2rem;
+    font-size: 2vw;
+  }
+
+  .section-9 .row .col-md-12 .text h1{
+    text-align: center;
+    font-size: 3vw;
+    justify-content: center;
+  }
+
+  .section-9 .row .col-md-12 .text p{
+    margin:12px 0 0 0 ;
+  }
+
+
+  .section-9 .row .col-md-12 .text button {
+    margin:45px 0 0 1rem;
+    font-weight: bold;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-9 .row .col-md-12{
+    width:auto;
+    background: #000;
+  }
+  .section-9 .row .col-md-12 img{
+    width:200rem;
+    position:relative;
+  }
+  .section-9 .row .col-md-12 .text{
+    background: rgba(41,40,39,0.5);
+    width: auto;
+    position:absolute;
+    top:3rem;
+    bottom:auto;
+    color:white;
+    left:2rem;
+    font-size: 2vw;
+  }
+
+  .section-9 .row .col-md-12 .text h1{
+    text-align: center;
+    font-size: 3vw;
+    justify-content: center;
+  }
+
+  .section-9 .row .col-md-12 .text p{
+    margin:12px 0 0 0 ;
+  }
+
+
+  .section-9 .row .col-md-12 .text button {
+    margin:45px 0 0 1rem;
+    font-weight: bold;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}

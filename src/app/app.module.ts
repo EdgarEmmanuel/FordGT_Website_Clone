@@ -9,6 +9,7 @@ import {CarGridComponent} from './car-grid/car-grid.component';
 import {ConfiguratorCarComponent} from './configurator-car/configurator-car.component';
 import {CarPerformanceComponent} from './car-performance/car-performance.component';
 import {CarAerodynamicComponent} from './car-aerodynamic/car-aerodynamic.component';
+import {CarRacingComponent} from './car-racing/car-racing.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import {CarAerodynamicComponent} from './car-aerodynamic/car-aerodynamic.compone
     ConfiguratorCarComponent,
     CarPerformanceComponent,
     CarAerodynamicComponent,
+    CarRacingComponent,
   ],
   imports: [
     BrowserModule,
