@@ -1,0 +1,90 @@
+
+
+
+/* section 4 */
+
+.section-4{
+  margin-top:45px;
+}
+
+.section-4 .row .col-md-12 {
+  text-align: center;
+}
+.section-4 .row .col-md-12 h1{
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-weight:bold;
+}
+
+/* section-5  */
+
+.section-5{
+  margin-top:30px;
+  margin-bottom: 10px;
+}
+.section-5 .row .col-md-12{
+  text-align: center;
+}
+.section-5 .carousel ol{
+  top:35rem;
+  bottom:auto;
+  color:blue;
+  background-color:red;
+}
+
+.section-5 .carousel ol li {
+  list-style-type: circle;
+}
+
+.section-5 .carousel .carousel-control-prev,.carousel-control-next{
+  top:4rem;
+  bottom:auto;
+  background:rgba(10,13,14,0.2);
+  width:90px;
+  color:white;
+}
+
+
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  /*  .slide_car_text{*/
+  /*  background: blue;*/
+  /*}*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /*.slide_car_text{*/
+  /*  background: red;*/
+  /*}*/
+  .row .col-md-12  #first_plus , #second_plus ,#third_plus{
+    visibility: hidden;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /*.slide_car_text{*/
+  /*  background: green;*/
+  /*}*/
+  .row .col-md-12  #first_plus , #second_plus ,#third_plus{
+    visibility: hidden;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .row .col-md-12  #first_plus , #second_plus ,#third_plus{
+    visibility: visible;
+    background-color:white;
+    color:grey;
+    border-radius: 50px;
+  }
+}
