@@ -1,0 +1,16 @@
+/* section-8 */
+
+.section-8 .carousel .carousel-caption{
+  top:3rem;
+  bottom:auto;
+  width:70%;
+}
+
+.section-8 .carousel .carousel-caption h1{
+  font-size: 55px;
+}
+
+.section-8 .carousel .carousel-caption p{
+  margin:62px 0 0 0 ;
+  font-weight:bold;
+}

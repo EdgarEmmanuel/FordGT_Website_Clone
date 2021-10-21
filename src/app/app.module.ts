@@ -7,7 +7,8 @@ import { ModalNavComponent } from './modal-nav/modal-nav.component';
 import {SlideCarComponent} from './slide-car/slide-car.component';
 import {CarGridComponent} from './car-grid/car-grid.component';
 import {ConfiguratorCarComponent} from './configurator-car/configurator-car.component';
-import {CarPerformanceComponent} from "./car-performance/car-performance.component";
+import {CarPerformanceComponent} from './car-performance/car-performance.component';
+import {CarAerodynamicComponent} from './car-aerodynamic/car-aerodynamic.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {CarPerformanceComponent} from "./car-performance/car-performance.compone
     CarGridComponent,
     ConfiguratorCarComponent,
     CarPerformanceComponent,
+    CarAerodynamicComponent,
   ],
   imports: [
     BrowserModule,
