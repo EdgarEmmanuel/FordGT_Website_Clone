@@ -69,8 +69,8 @@
     top:2rem;
     bottom:auto;
     color:white;
-    left:2rem;
-    font-size: 2vw;
+    left:auto;
+    font-size: 2.5vw;
   }
 
   .section-9 .row .col-md-12 .text h1{
@@ -81,11 +81,12 @@
 
   .section-9 .row .col-md-12 .text p{
     margin:12px 0 0 0 ;
+    font-weight: bold;
   }
 
 
   .section-9 .row .col-md-12 .text button {
-    margin:45px 0 0 1rem;
+    margin:5px 0 0 1rem;
     font-weight: bold;
   }
 }
@@ -140,7 +141,8 @@
     position:relative;
   }
   .section-9 .row .col-md-12 .text{
-    background: rgba(41,40,39,0.5);
+    /*background: rgba(41,40,39,0.5);*/
+    background: red;
     width: auto;
     position:absolute;
     top:3rem;
