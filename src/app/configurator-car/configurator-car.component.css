@@ -1,0 +1,84 @@
+/* section 3  */
+.section-3{
+  width:100%;
+  margin-top: 40px;
+}
+
+.section-3 .row .col-md-12{
+  position: relative;
+}
+
+.section-3 .row .col-md-12 img{
+  width:100rem;
+  height:auto;
+  z-index:5;
+}
+
+.section-3 .row .col-md-12 .paragraph h1,p{
+  text-align: center;
+}
+
+.section-3 .row .col-md-12 .paragraph h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+}
+
+.section-3 .row .col-md-12 .paragraph p{
+  justify-content: center;
+  letter-spacing: 0.4px;
+}
+
+.section-3 .row .col-md-12 .paragraph{
+  position: absolute;
+  margin-top: -50rem;
+  margin-left: 25rem;
+  z-index:1;
+}
+
+.section-3 .row .col-md-12 button{
+  position:absolute;
+  margin-top: -62px;
+  margin-left:30rem;
+  width:300px;
+  padding:10px;
+  border:1px solid #3380bf;
+  font-family:'Times New Roman';
+  color:white;
+  background:linear-gradient(35deg,#2e76b3,#3380bf);
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section-3 .row .col-md-12 img{
+    max-width: 100%;
+    z-index:0;
+  }
+
+  .section-3 .row .col-md-12 .paragraph{
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-3 .row .col-md-12 img{
+    width: 500px;
+    z-index:0;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-3 .row .col-md-12 img{
+    width: 600px;
+    z-index:0;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

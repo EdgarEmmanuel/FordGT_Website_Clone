@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ModalNavComponent } from './modal-nav/modal-nav.component';
 import {SlideCarComponent} from './slide-car/slide-car.component';
 import {CarGridComponent} from './car-grid/car-grid.component';
+import {ConfiguratorCarComponent} from './configurator-car/configurator-car.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import {CarGridComponent} from './car-grid/car-grid.component';
     ModalNavComponent,
     SlideCarComponent,
     CarGridComponent,
+    ConfiguratorCarComponent
   ],
   imports: [
     BrowserModule,
