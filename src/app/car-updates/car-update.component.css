@@ -1,0 +1,129 @@
+
+/* start section-11 */
+
+
+/*.section-11{*/
+/*  margin-top: 25px;*/
+/*}*/
+
+.section-11 .row{
+  width:100rem;
+  height:15rem;
+  background-color:#102b4e;
+}
+
+
+.section-11 .row .col-md-12 h1{
+  text-align: center;
+  color:#49a9e9;
+}
+
+.section-11 .row .col-md-12 p{
+  color:white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* start section-12 */
+
+.section-12{
+  margin: 105px 0 0 0;
+}
+
+.section-12 .row{
+  width:100rem;
+  height:15rem;
+  background-color:#102b4e;
+}
+
+.section-12 .row .col-md-12{
+  text-align: center;
+  margin:12px 0 0 -100px;
+  color:white;
+}
+
+.section-12 .row .col-md-12 h1{
+  margin:42px 0 0 0;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing:0.01em;
+}
+
+.section-12 .row .col-md-12 p{
+  margin-top: 0.2em;
+  letter-spacing: 0.2em;
+}
+
+.section-12 .row .col-md-12 p a{
+  color:#49a9e9;
+}
+
+.section-12 .row .col-md-12 button{
+  background:#1f6797;
+  border:1px solid #1f6797;
+  padding: 15px  ;
+  width:400px;
+  color:white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.section-12 .row .col-md-12 button:hover{
+  border:1px solid #1f6797;
+  background:white;
+  color:#2e76a7;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section-11 .row{
+    max-width: 120%;
+  }
+  .section-11 .row .col-md-12{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .section-11 .row .col-md-12 h1 {
+    flex-basis: 100%;
+    font-size: 20px;
+    color:#49a9e9;
+    margin: 0 auto;
+  }
+  .section-11 .row .col-md-12 p{
+    flex-basis: 100%;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-11 .row{
+    max-width: 120%;
+  }
+  .section-11 .row .col-md-12{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .section-11 .row .col-md-12 h1 {
+    flex-basis: 100%;
+    font-size: 20px;
+    color:#49a9e9;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-11 .row .col-md-12 p{
+    flex-basis: 100%;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
