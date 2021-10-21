@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ModalNavComponent } from './modal-nav/modal-nav.component';
-import {SlideCarComponent} from "./slide-car/slide-car.component";
+import {SlideCarComponent} from './slide-car/slide-car.component';
+import {CarGridComponent} from './car-grid/car-grid.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import {SlideCarComponent} from "./slide-car/slide-car.component";
     AppComponent,
     ModalNavComponent,
     SlideCarComponent,
+    CarGridComponent,
   ],
   imports: [
     BrowserModule,

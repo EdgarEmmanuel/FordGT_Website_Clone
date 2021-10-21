@@ -50,43 +50,9 @@ li{
 
 
 
-/* section 1  */
-.section-1{
-    margin-top:105px;
-}
 
-.section-1 .row .container .col-md-12 h1{
-    text-align: center;
-    font-weight:bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    justify-content: center;
-}
 
-.section-1 .row .container .col-md-12 p{
-    text-align: center;
-    font-family: 'Noto Sans', sans-serif;
-}
 
-/* section 2 */
-.section-2{
-    margin: 90px 0 0 0 ;
-    padding: 0;
-}
-
-.section-2 .row .col-md-3{
-    margin:0;
-    padding:0;
-    overflow: hidden;
-}
-
-.section-2 .row .col-md-3 #car{
-    width: 100%;
-    transition: transform .5s ease ;
-}
-
-.section-2 .row .col-md-3 #car:hover{
-    transform: scale(1.5);
-}
 
 /* section 3  */
 .section-3{
