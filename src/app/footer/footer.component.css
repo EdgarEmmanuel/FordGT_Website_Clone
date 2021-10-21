@@ -104,6 +104,9 @@
   .section-13{
     display: none;
   }
+  .section-15{
+    max-width:100%;
+  }
   .section-14 .row-section-14{
     display:flex;
     flex-wrap: wrap;
