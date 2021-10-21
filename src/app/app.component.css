@@ -47,35 +47,7 @@ li{
    text-decoration: none;
 }
 
-/* for the slide of the car  */
 
-.row .col-md-12  #first_plus , #second_plus ,#third_plus{
-    background-color:white;
-    color:grey;
-    border-radius: 50px;
-}
-
-.row .col-md-12 #first_plus{
-    margin-top:-75rem;
-    margin-left: 33rem;
-}
-
-.row .col-md-12 #second_plus{
-    margin-top: -99rem;
-    margin-left:45rem;
-}
-
-.row .col-md-12 #third_plus{
-    margin-top:-72rem;
-    margin-left:54rem;
-}
-
-.row .col-md-12 #first_plus:hover,#second_plus:hover,#third_plus:hover{
-    background-color:#0D92AA;
-    color:white;
-    font-size:25px;
-    box-shadow: 5px 5px 5px black;
-}
 
 
 /* section 1  */
@@ -158,7 +130,7 @@ li{
     margin-left:30rem;
     width:300px;
     padding:10px;
-    border:1px solid #3380bf; 
+    border:1px solid #3380bf;
     font-family:'Times New Roman';
     color:white;
     background:linear-gradient(35deg,#2e76b3,#3380bf);
@@ -317,7 +289,7 @@ li{
     display: inline-block;
     padding: 3px;
   }
-  
+
  .section-9 .row .col-md-12 .text button  .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
@@ -333,7 +305,7 @@ li{
 
   .section-10 .row .col-md-12 img{
       position:relative;
-        width:100rem; 
+        width:100rem;
   }
 
   .section-10 .row .col-md-12 .family_text{
@@ -482,7 +454,7 @@ li{
 
 .section-14  .row-section-14 .col-row ul{
     margin:12px 0 0  -40px;
-    
+
 }
 
 .section-14  .row-section-14 .col-row ul li{
@@ -496,7 +468,7 @@ li{
 
 .section-14  .row-section-14 .col-row ul li:hover{
     color:white;
-    
+
 }
 
 

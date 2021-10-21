@@ -1,0 +1,74 @@
+/* for the slide of the car  */
+.slide_car_text{
+  text-align: center;
+}
+
+
+.row .col-md-12  #first_plus , #second_plus ,#third_plus{
+  background-color:white;
+  color:grey;
+  border-radius: 50px;
+}
+
+.row .col-md-12 #first_plus{
+  margin-top:-75rem;
+  margin-left: 33rem;
+}
+
+.row .col-md-12 #second_plus{
+  margin-top: -99rem;
+  margin-left:45rem;
+}
+
+.row .col-md-12 #third_plus{
+  margin-top:-72rem;
+  margin-left:54rem;
+}
+
+.row .col-md-12 #first_plus:hover,#second_plus:hover,#third_plus:hover{
+  background-color:#0D92AA;
+  color:white;
+  font-size:25px;
+  box-shadow: 5px 5px 5px black;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+/*  .slide_car_text{*/
+/*  background: blue;*/
+/*}*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /*.slide_car_text{*/
+  /*  background: red;*/
+  /*}*/
+  .row .col-md-12  #first_plus , #second_plus ,#third_plus{
+    visibility: hidden;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /*.slide_car_text{*/
+  /*  background: green;*/
+  /*}*/
+  .row .col-md-12  #first_plus , #second_plus ,#third_plus{
+    visibility: hidden;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .row .col-md-12  #first_plus , #second_plus ,#third_plus{
+    visibility: visible;
+    background-color:white;
+    color:grey;
+    border-radius: 50px;
+  }
+}
