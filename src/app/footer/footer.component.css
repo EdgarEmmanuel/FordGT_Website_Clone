@@ -1,0 +1,100 @@
+
+
+
+/* start of section-13 */
+
+.section-13{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100rem;
+  height:8rem;
+  background:#333333;
+}
+
+.section-13 .col-row-left , .col-row-right{
+  flex-basis:50%;
+}
+
+.section-13 .col-row-left a{
+  font-size:25px;
+  color:white;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.section-13 .col-row-right a{
+  margin: 0 0 0 12px;
+  font-size:15px;
+  color:rgb(110, 96, 96);
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.section-13 .col-row-right a:hover{
+  color:white;
+}
+
+
+/* start of section-14 */
+
+.section-14 .row-section-14{
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  background:#242424;
+  color:white;
+  height:25rem;
+}
+
+.section-14 .row-section-14 .col-row{
+  flex-basis: 20%;
+}
+
+.section-14  .row-section-14 .col-row h3{
+  margin-top: 30px;
+  font-family: 'Roboto Mono', monospace;
+  font-size:17px;
+}
+
+.section-14  .row-section-14 .col-row ul{
+  margin:12px 0 0  -40px;
+
+}
+
+.section-14  .row-section-14 .col-row ul li{
+  list-style-type: none;
+  color:rgb(110, 96, 96);
+  cursor: pointer;
+  font-size:15px;
+  padding-left: 12px;
+}
+
+
+.section-14  .row-section-14 .col-row ul li:hover{
+  color:white;
+
+}
+
+
+/* section-15 */
+
+.section-15{
+  width:100rem;
+  height:8rem;
+}
+
+.section-15 .row .col-md-12{
+  margin:22px 0 0 0;
+}
+
+
+.section-15 .row .col-md-12 a{
+  text-decoration: none;
+  color:rgb(110, 96, 96);
+  padding: 12px;
+}
+
+.section-15 .row .col-md-12 a:hover{
+  color:rgba(68, 68, 114, 0.493);
+}

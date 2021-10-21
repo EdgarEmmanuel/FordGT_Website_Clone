@@ -93,6 +93,9 @@
     font-size: 13px;
     text-align: center;
   }
+  .section-12 {
+    display: none;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -117,13 +120,23 @@
     font-size: 13px;
     text-align: center;
   }
+
+  .section-12 {
+    display: none;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .section-12 {
+    display: none;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+  .section-12 {
+    display: none;
+  }
 
 }

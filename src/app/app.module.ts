@@ -11,7 +11,8 @@ import {CarPerformanceComponent} from './car-performance/car-performance.compone
 import {CarAerodynamicComponent} from './car-aerodynamic/car-aerodynamic.component';
 import {CarRacingComponent} from './car-racing/car-racing.component';
 import {CarFamilyComponent} from './car-family/car-family.component';
-import {CarUpdateComponent} from "./car-updates/car-update.component";
+import {CarUpdateComponent} from './car-updates/car-update.component';
+import {FooterComponent} from './footer/footer.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import {CarUpdateComponent} from "./car-updates/car-update.component";
     CarRacingComponent,
     CarFamilyComponent,
     CarUpdateComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
