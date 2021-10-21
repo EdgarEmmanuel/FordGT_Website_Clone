@@ -1,0 +1,80 @@
+
+
+
+/* section-10 */
+
+.section-10 .row .col-md-12{
+  width:100%;
+}
+
+.section-10 .row .col-md-12 img{
+  position:relative;
+  width:100rem;
+}
+
+.section-10 .row .col-md-12 .family_text{
+  position: absolute;
+  top:1rem;
+  bottom:auto;
+  left:26rem;
+  color:#616161;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: .2em;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section-10 .row .col-md-12 img{
+    position:relative;
+    max-width:100%;
+  }
+  .section-10 .row .col-md-12 .family_text{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:1rem;
+    bottom:auto;
+    left:auto;
+    color:rgba(255,255,255,1);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: .2em;
+    font-size: 1vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-10 .row .col-md-12 img{
+    position:relative;
+    max-width:100%;
+  }
+
+  .section-10 .row .col-md-12 img{
+    position:relative;
+    max-width:100%;
+  }
+  .section-10 .row .col-md-12 .family_text{
+    position: absolute;
+    top:1rem;
+    bottom:auto;
+    left:2rem;
+    color:#616161;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: .2em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-10 .row .col-md-12 img{
+    position:relative;
+    max-width:100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .section-10 .row .col-md-12 .family_text{
+    background: pink;
+  }
+}

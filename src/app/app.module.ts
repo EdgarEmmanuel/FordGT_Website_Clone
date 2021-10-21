@@ -10,6 +10,7 @@ import {ConfiguratorCarComponent} from './configurator-car/configurator-car.comp
 import {CarPerformanceComponent} from './car-performance/car-performance.component';
 import {CarAerodynamicComponent} from './car-aerodynamic/car-aerodynamic.component';
 import {CarRacingComponent} from './car-racing/car-racing.component';
+import {CarFamilyComponent} from './car-family/car-family.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import {CarRacingComponent} from './car-racing/car-racing.component';
     CarPerformanceComponent,
     CarAerodynamicComponent,
     CarRacingComponent,
+    CarFamilyComponent,
   ],
   imports: [
     BrowserModule,

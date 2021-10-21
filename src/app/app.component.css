@@ -66,28 +66,6 @@ li{
 
 
 
-  /* section-10 */
-
-  .section-10 .row .col-md-12{
-      width:100%;
-  }
-
-  .section-10 .row .col-md-12 img{
-      position:relative;
-        width:100rem;
-  }
-
-  .section-10 .row .col-md-12 .family_text{
-      position: absolute;
-      top:1rem;
-      bottom:auto;
-      left:26rem;
-      color:#616161;
-      font-family: 'Roboto Mono', monospace;
-      letter-spacing: .2em;
-  }
-
-
 /* start section-11 */
 
 
