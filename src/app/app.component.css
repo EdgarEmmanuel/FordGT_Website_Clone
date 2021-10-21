@@ -60,50 +60,6 @@ li{
 
 
 
-/* section-7 */
-
-.section-7{
-    margin:55px 0 0 0 ;
-}
-
-.section-7 .row .col-md-6 img{
-    width:40rem;
-}
-
-.section-7 .row .col-md-6 h3{
-    text-align:center;
-    justify-content: center;
-    margin:45px 0 0 0;
-   font-weight:bold;
-   font-size:35px;
-}
-
-.section-7 .row .col-md-6 p{
-    margin: 45px 0 0 0 ;
-    font-family: 'Raleway', sans-serif;
-}
-
-.section-7 .row .col-md-6 .row{
-    margin:25px 0 0 0 ;
-}
-
-.section-7 .row .col-md-6 .row .col-md-3 p{
-    margin: -3px  0 0 -60px;
-    font-family: 'Roboto Mono', monospace;
-    font-size:33px;
-}
-
-.section-7 .row .col-md-6 .row .col-md-3 h1{
-    font-weight:bold;
-}
-
-.section-7 .row .col-md-6 .row .col-md-3:first-child{
-    margin-left: 120px;
-}
-
-.section-7 .row .col-md-6 .row .col-md-3:last-child{
-    margin-left:140px;
-}
 
 /* section-8 */
 

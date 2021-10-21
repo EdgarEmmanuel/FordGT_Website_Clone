@@ -58,11 +58,63 @@
 
 
 
+/* section-7 */
+
+.section-7{
+  margin:55px 0 0 0 ;
+}
+
+.section-7 .row .col-md-6 img{
+  width:40rem;
+}
+
+.section-7 .row .col-md-6 h3{
+  text-align:center;
+  justify-content: center;
+  margin:45px 0 0 0;
+  font-weight:bold;
+  font-size:35px;
+}
+
+.section-7 .row .col-md-6 p{
+  margin: 45px 0 0 0 ;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.section-7 .row .col-md-6 .row{
+  margin:25px 0 0 0 ;
+}
+
+.section-7 .row .col-md-6 .row .col-md-3 p{
+  margin: -3px  0 0 -60px;
+  font-family: 'Roboto Mono', monospace;
+  padding: 20px 20px;
+  font-size:33px;
+  text-align: left;
+}
+
+.section-7 .row .col-md-6 .row .col-md-3 h1{
+  font-weight:bold;
+}
+
+.section-7 .row .col-md-6 .row .col-md-3:first-child{
+  margin-left: 120px;
+}
+
+.section-7 .row .col-md-6 .row .col-md-3:last-child{
+  margin-left:140px;
+}
+
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   /*  .slide_car_text{*/
   /*  background: blue;*/
   /*}*/
+  .section-7 .row .col-md-6 .row .col-md-3 p{
+    color: #000;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -70,9 +122,6 @@
   /*.slide_car_text{*/
   /*  background: red;*/
   /*}*/
-  .row .col-md-12  #first_plus , #second_plus ,#third_plus{
-    visibility: hidden;
-  }
 }
 
 
@@ -81,19 +130,16 @@
   /*.slide_car_text{*/
   /*  background: green;*/
   /*}*/
-  .row .col-md-12  #first_plus , #second_plus ,#third_plus{
-    visibility: hidden;
-  }
 }
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-  .row .col-md-12  #first_plus , #second_plus ,#third_plus{
-    visibility: visible;
-    background-color:white;
-    color:grey;
-    border-radius: 50px;
-  }
+  /*.row .col-md-12  #first_plus , #second_plus ,#third_plus{*/
+  /*  visibility: visible;*/
+  /*  background-color:white;*/
+  /*  color:grey;*/
+  /*  border-radius: 50px;*/
+  /*}*/
 }
